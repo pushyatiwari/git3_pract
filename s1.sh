@@ -20,6 +20,7 @@ read contents
 
 echo $contents >> $filen2
 echo reading 1st file that is copied
+echo hi there, i am chenged
 cat $filen1
 echo reading 2nd file
 cat $filen2
