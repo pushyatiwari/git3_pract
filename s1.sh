@@ -13,10 +13,10 @@ read filen1
 
 cp 1.txt $filen1
 
-echo enter filename to write to
-read filen2
-echo write contents
-read contents
+echo $contents >> $filen2
+echo reading 1st file that is copied
+echo hi there, i am chenged
+cat $filen1
 
 echo $contents >> $filen2
 echo reading 1st file that is copied
